@@ -1,0 +1,64 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #2f38ec
+}
+
+h3 {
+    color: rgb(110, 94, 2)
+}
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+
+header {
+    background: #2f38ec;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 5px;
+    margin: 10px;
+}
+
+.project {
+    margin-bottom: 10px;
+    @media only screen and (max-width: 600px) {
+    header, section {
+        text-align: center;
+        padding: 15px;
+    }
+
+    nav ul {
+        padding-top: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+}
